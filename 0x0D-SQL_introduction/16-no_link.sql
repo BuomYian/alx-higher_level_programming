@@ -3,4 +3,4 @@
 -- Results should display the score and the name (in this order)
 -- Records should be listed by descending score
 -- The database name will be passed as an argument to the mysql command
-SELECT score, name FROM secod_table WHERE name IS NOT NULL ORDER BY score DESC;
+SELECT score, name FROM second_table WHERE name IS NOT NULL ORDER BY score DESC;
